@@ -23,7 +23,7 @@ header {
     left: 0;
     z-index: 1000;
     width: 30rem;
-    height: 41.7rem;
+    height: 91%;
     background-color: rgba(4, 24, 83, 0.782);
     display: flex;
     justify-content: center;
@@ -338,7 +338,6 @@ section {
 
 footer {
     background-color: black;
-    height:4rem;
     padding: 2px;
     text-align: center;
     font-size: 14px;
