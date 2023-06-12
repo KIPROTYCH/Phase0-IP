@@ -23,24 +23,25 @@ header {
     left: 0;
     z-index: 1000;
     width: 30rem;
-    background-color: royalblue;
+    height: 41.6rem;
+    background-color: rgba(4, 24, 83, 0.782);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
     text-align: center;
-    overflow: auto;
-    
+
 }
 
 header .user img {
     height: 12rem;
     width: 12rem;
+    
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    margin-top: 1rem;
-    border: .5rem solid orange;
+    margin-top: 0.5rem;
+    border: .5rem solid rgb(162, 111, 15);
 }
 
 header .user .post {
@@ -55,6 +56,7 @@ header .name {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    
 }
 
 header .navbar {
@@ -72,8 +74,8 @@ header .navbar ul li a {
     padding: 0.5rem;
     margin: 1rem 0;
     background: grey;
-    color:black;
-    font-size: 1.5rem;
+    color: black;
+    font-size: 1.4rem;
     font-weight: 600;
     border-radius: 5rem;
     text-align: center;
@@ -169,18 +171,21 @@ section {
     padding-left: 6rem;
 
 }
-.about .row .info p{
+
+.about .row .info p {
     font-size: 1.3rem;
     color: white;
     align-items: center;
     justify-content: center;
 }
-.btn{
+
+.btn {
     font-size: 1rem;
-    display:inline-block;
+    display: inline-block;
     padding: -1rem;
 
 }
+
 .education .box-container {
     display: flex;
     align-items: center;
@@ -271,7 +276,8 @@ section {
     padding: 4rem;
     padding-bottom: 0;
 }
-.contact h3{
+
+.contact h3 {
     font-size: 2rem;
 }
 
@@ -322,6 +328,45 @@ section {
     padding-right: 1rem;
     color: orange;
 }
+
+footer {
+    background-color: black;
+    height:4rem;
+    padding: 2px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+footer img {
+    width: 5rem;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot i {
+    width: 2rem;
+    font-size: 24px;
+    margin: 0 5px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+
 
 
 /* Media queries */
