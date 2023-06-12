@@ -5,7 +5,7 @@ PERSONAL WEBSITE PORTFOLIO
 Yegon Kiprotich Gideon- Professional Software Engineer.
 
 ## Link to my live Page
-kiprotych.github.io/IPWK3/
+https://kiprotych.github.io/Phase0-IP/
 
 ## DESCRIPTION
 
