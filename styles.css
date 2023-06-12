@@ -24,12 +24,13 @@ header {
     z-index: 1000;
     width: 30rem;
     height: 100%;
-    background-color: rgba(4, 24, 83, 0.782);
+    background-color: rgb(4, 24, 83);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
     text-align: center;
+    padding: 20px;
 
 }
 
@@ -110,7 +111,6 @@ section {
     align-items: center;
     flex-flow: column;
     padding: 1rem 7rem;
-
 
 }
 
@@ -268,7 +268,6 @@ section {
     transform: scale(1.2);
 }
 
-
 .contact .row {
     /* display: flex; */
     align-items: center;
@@ -305,8 +304,6 @@ section {
     width: 50%;
 }
 
-
-
 .contact .row form .box::placeholder {
     text-transform: capitalize;
 }
@@ -341,19 +338,15 @@ footer {
     padding: 2px;
     text-align: center;
     font-size: 14px;
+    width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 68.5%;
-}
-
-footer p {
-    margin: 0;
-    color: white;
 }
 
 footer img {
-    width: 6rem;
+    width: 7rem;
+    margin-left: 25rem;
 }
 
 .foot {
@@ -369,9 +362,11 @@ footer img {
     color: #fff;
     cursor: pointer;    
 }
+
 .foot i:hover{
     transform: scale(1.5);
 }
+
 
 
 
