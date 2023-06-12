@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    background: teal;
+    overflow-x: hidden;
+    padding-left: 30rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 30rem;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    overflow: auto;
+    
+}
+
+header .user img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: .5rem solid orange;
+}
+
+header .user .post {
+    font-size: 1.8rem;
+    color: honeydew;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+header .name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+header .navbar {
+    width: 100%;
+
+}
+
+header .navbar ul {
+    list-style: none;
+    padding: 1rem 5rem;
+}
+
+header .navbar ul li a {
+    display: block;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background: grey;
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    text-align: center;
+
+}
+
+header .navbar ul li a:hover {
+    background: orange;
+}
+
+#menu {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    /* display: none; */
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 1rem 7rem;
+
+
+}
+
+.home h3 {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.home h1 {
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.home h1 span {
+    color: orange;
+}
+
+.home p {
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 0.5rem 0;
+}
+
+.btn {
+    padding: 0.7rem 3rem;
+    background: grey;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn:hover {
+    background: orange;
+}
+
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid goldenrod;
+    color: whitesmoke;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about .row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+
+}
+.about .row .info p{
+    font-size: 1.3rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 1rem;
+    display:inline-block;
+    padding: -1rem;
+
+}
+.education .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid wheat;
+    position: relative;
+}
+
+.education .box-container .box span {
+    font-size: 1.5rem;
+    /* background: grey;
+    color: orange;
+    border-radius: 5rem; */
+
+}
+
+.education .box-container .box h3 {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p {
+    font-size: 1.3rem;
+    color: black;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: orange;
+}
+
+.portfolio .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.portfolio .box-container .box {
+    height: 20rem;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img {
+    transform: scale(1.2);
+}
+
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content {
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+.contact h3{
+    font-size: 2rem;
+}
+
+.contact .row form {
+    flex: 1 1 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box {
+    padding: 1.6rem;
+    margin: 1rem 0;
+    height: 1rem;
+    border-radius: 2rem;
+    background: white;
+    color: orange;
+    text-transform: none;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.contact .row form .box::placeholder {
+    text-transform: capitalize;
+}
+
+.contact .row form .message {
+    height: 10rem;
+    resize: none;
+}
+
+.contact .row .content .title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+.contact .row .content .info h3 i {
+    padding-right: 1rem;
+    color: orange;
+}
+
+
+/* Media queries */
+@media (max-width:1200px) {
+    html {
+        font-size: 50%;
+    }
+
+    home {
+        padding: 1rem 4rem;
+    }
+
+}
+
+@media (max-width:1080px) {
+    header {
+        left: -120%;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    header.toggle {
+        left: 0%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+}
+
+
+
+@media (max-width:760px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:400px) {
+    header {
+        width: 100vh;
+    }
+
+    .education .box-container .box {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
+        width: 100%;
+    }
+
+    .contact .row form {
+        margin: 3rem 0;
+    }
+}
