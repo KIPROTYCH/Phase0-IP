@@ -36,24 +36,24 @@ header {
 header .user img {
     height: 12rem;
     width: 12rem;
-    
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 1.5rem;
     border: .5rem solid rgb(162, 111, 15);
 }
 
 header .user .post {
     font-size: 1.8rem;
-    color: honeydew;
+    color: rgba(240, 255, 240, 0.832);
     font-weight: 700;
     text-align: center;
 
 }
 
 header .name {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    color: #ffffffde;
     font-weight: bold;
     text-align: center;
     
