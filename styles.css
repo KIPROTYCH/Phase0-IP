@@ -270,14 +270,14 @@ section {
 
 
 .contact .row {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .contact .row .content {
-    flex: 1 1 30rem;
+    flex: 1 1 10rem;
     padding: 4rem;
     padding-bottom: 0;
 }
@@ -287,14 +287,14 @@ section {
 }
 
 .contact .row form {
-    flex: 1 1 20rem;
+    flex: 1 1 10rem;
     padding: 1rem;
     margin: 1rem;
     margin-bottom: 4rem;
 }
 
 .contact .row form .box {
-    padding: 1.6rem;
+    padding: 1.5rem;
     margin: 1rem 0;
     height: 1rem;
     border-radius: 2rem;
@@ -302,8 +302,10 @@ section {
     color: orange;
     text-transform: none;
     font-size: 1.5rem;
-    width: 100%;
+    width: 50%;
 }
+
+
 
 .contact .row form .box::placeholder {
     text-transform: capitalize;
